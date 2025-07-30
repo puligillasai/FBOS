@@ -70,12 +70,12 @@ data:
      [OUTPUT]
         Name opensearch
         Match kube.*
-        Host vpc-vz-jpuv-opensearch-jpuv-6pxpxpfv3y7rsysjwkmz4melwa.us-east-1.es.amazonaws.com
+        Host 
         Port 443
         #HTTPS_User      ${OPENSEARCH_USER}
         #HTTPS_Passwd    ${OPENSEARCH_PASSWORD}
-        HTTP_User jpuvadmin
-        HTTP_Passwd Search1!
+        HTTP_User 
+        HTTP_Passwd 
         Index fluent-bit
         TLS On
         #AWS_Auth On
